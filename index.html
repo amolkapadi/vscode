@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Hub - Spade Motion Art & Pror Traning</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <!--Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <!--External CSS-->
+    <link href="./css/style.css" rel="stylesheet">
+    <!--Media Query for Responsive-->
+    <link href="./css/mediaQuery.css" rel="stylesheet">
+    <!--Bootstrap 5 ICON-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!--Navbar Section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <img src="./img/logo.png" alt="" width="100" height="45">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="bi bi-stack-overflow"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Information Technology</a></li>
+                  <li><a class="dropdown-item" href="#">Interior Design</a></li>
+                  <li><a class="dropdown-item" href="#">Construction</a></li>
+                  <li><a class="dropdown-item" href="#">Insitution</a></li>
+                  <li><a class="dropdown-item" href="#">3D Visualization</a></li>
+                  <li><a class="dropdown-item" href="#">Tool Design & Die Making</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li>
+                <button type="button" class="btn btn-danger">Get Started</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--Slider Section-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/slider1.jpg" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider2.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slider3.png" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--Bootstrap  5 Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
